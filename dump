@@ -1,0 +1,154 @@
+
+\subsection{Calls}
+
+\subsubsection*{Descriptive analysis}
+
+\begin{figure}[htbp]
+    \centering
+    
+    \includegraphics[width=0.8\textwidth]{figs/descriptive_call.png}
+    
+    \caption{Outgoing/Incoming call count and duration between groups}
+    \label{call:desc}
+\end{figure}
+
+For each subject, we computed the daily average of communication variables over the sampling period of 8 weeks.
+ \autoref{call:desc} presents the values of calls count and duration of each group. The Mann-Whitney U (MWU) test was used to compare the mean values of all variables between the two groups. The results indicated no significant differences in mean values between the groups.
+
+\pagebreak
+\subsubsection*{Daily inter-difference}
+
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[b]{\textwidth}
+        \includegraphics[width=\textwidth]{figs/inter_diff_total_call.png}
+    \end{subfigure}
+    \vfill % To add space between the subfigures
+    
+    \caption{Daily rhythm: Inter difference in call rhythm. Cell ij represents the distance in daily call rhythm between individual i and j.}
+\end{figure}
+
+\autoref{call:inter_diff} displays the matrix of inter-differences in rhythms between each pair of subjects. Using the MWU test, we compared the distances between the control and patient groups. A significant difference was observed, suggesting that the control group has more variability in their call patterns than the patient group.
+
+\begin{figure}[htbp]
+    \centering
+    
+        \includegraphics[width=\textwidth]{figs/inter_diff_total_call_weekly.png}
+    
+    \caption{Weekly rhythm: Inter difference in messaging rhythm. Cell ij represents the distance in daily messaging rhythm between individual i and j.}
+    \label{call:inter_diff}
+\end{figure}
+
+\subsubsection*{Daily intra-difference}
+Compare subjects to themselves
+
+\subsubsection*{Outlier analysis}
+
+- Pick the subject with highest inter/intra distance
+
+- Compare against PHQ values
+ 
+
+\pagebreak
+
+\subsection{SMS}
+
+\subsubsection*{Descriptive analysis}
+
+Similarly, we examined the difference in outgoing and incoming messages between the two groups. \autoref{sms:desc} presents the daily average number of outgoing and incoming messages for both groups. Using the MWU test, we found no significant difference in these two variables between the groups.
+
+\begin{figure}[htbp]
+    \centering
+        \includegraphics[width=0.8\textwidth]{figs/descriptive_sms.png}
+    
+    \caption{Outgoing/Incoming SMS between groups}
+    \label{sms:desc}
+\end{figure}
+
+\subsubsection*{Daily inter-difference}
+
+We compare the distance in rhythms between messaging patterns. \autoref{sms:inter_diff} displays the distance metrics between the groups, showing temporal differences in messaging behaviors. Mann-Whitney U test was used to compare the distances between control and patient groups. No significant difference was found.
+
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[b]{\textwidth}
+        \includegraphics[width=\textwidth]{figs/inter_diff_sms_daily.png}
+    \end{subfigure}
+    \vfill % To add space between the subfigures
+    
+    \caption{Daily rhythm: Inter difference in messaging rhythm. Cell ij represents the distance in daily messaging rhythm between individual i and j.}
+    \label{sms:inter_diff}
+\end{figure}
+
+\pagebreak
+\subsection{Screen}
+
+
+\subsubsection*{Descriptive analysis}
+
+We examined the difference in screen use between the two groups. \autoref{sms:desc} presents the daily average number of outgoing and incoming messages for both groups. Using the MWU test, we found no significant difference in these two variables between the groups.
+
+\begin{figure}[htbp]
+    \centering
+        \includegraphics[width=0.8\textwidth]{figs/descriptive_screen.png}
+    \caption{Screen use count and duration between groups}
+    \label{screen:desc}
+\end{figure}
+
+\subsubsection*{Daily inter-difference}
+
+
+Patients are more varied in their phone use pattern. Two-three patients are more varied than other patients in terms of allocation of time for phone use. 
+
+\begin{figure}[htbp]
+    \centering
+        \includegraphics[width=\textwidth]{figs/inter_diff_screen_daily.png}
+
+    \caption{Daily rhythm: Inter difference in distribution of screen use duration. Cell ij represents the distance in daily rhythm between individual i and j.}
+    \label{screen:inter_diff}
+\end{figure}
+
+
+\pagebreak
+\subsection{Sleep}
+
+\begin{figure}[htbp]
+    
+    \begin{subfigure}[b]{\linewidth}
+        \centering
+        \includegraphics[width=0.75\linewidth]{figs/tst_groups.png}
+        \caption{Total sleep time}
+        \label{fig:subfigure1}
+    \end{subfigure}
+
+    \begin{subfigure}[b]{\linewidth}
+        \centering
+        \includegraphics[width=0.75\linewidth]{figs/onset.png}
+        \caption{Sleep onset}
+        \label{fig:subfigure2}
+    \end{subfigure}
+    
+    \begin{subfigure}[b]{\linewidth}
+        \centering
+        \includegraphics[width=0.75\linewidth]{figs/offset.png}
+        \caption{Sleep offset}
+        \label{fig:subfigure3}
+    \end{subfigure}
+    
+    \begin{subfigure}[b]{\linewidth}
+        \centering
+        \includegraphics[width=0.75\linewidth]{figs/tst_var.png}
+        \caption{TST variability}
+        \label{fig:subfigure4}
+    \end{subfigure}
+
+    \caption{Sleep variables}
+    \label{fig:main}
+    
+\end{figure}
+
+Shapiro-Wilk test was performed to assess normality. TST variability was normally distributed, none of the other variables were normally distributed. T-test for TST var, MWU for the rest.
+
+- Patients wake up later (p<0.001). Sleep onset was indifferent (p=0.38) 
+- TST: Patients sleep more than Control (p<0.001)
+- TST variability: result was NOT significant (p=0.19).
